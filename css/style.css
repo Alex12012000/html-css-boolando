@@ -158,6 +158,11 @@ header {
     right: 0;
     text-align: center;
 }
+
+.heart-box:hover {
+    color: red;
+}
+
 .red {
     background-color: red;
 }
