@@ -90,7 +90,7 @@ header {
 
 .col {
     width: calc( (100% / 3) - 20px);
-    padding-top: 50px;
+    padding: 40px 0;
 }
 
 /* card content */
@@ -161,4 +161,48 @@ header {
 
 .green {
     background-color: green;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1a1a1a;
+    padding: 30px 0;
+}
+
+.footerinfo {
+    justify-content: space-between;
+}
+
+.ownerinfo h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.ownerinfo ul {
+    list-style-type: none;
+}
+
+.ownerinfo li {
+    text-decoration: none;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.ownerinfo a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.socials span {
+    font-size: 13px;
+    color: white;
+}
+
+.social-icons {
+    color: white;
+    padding-right: 10px;
+    font-size: 25px;
+    padding-top: 10px;
 }
