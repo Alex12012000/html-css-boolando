@@ -5,4 +5,70 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+    display: block;
+}
 
+/* COMMON */
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family:  'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* HEADER */
+
+header {
+    background-color: #ff6900;
+    height: 60px;
+}
+
+.navbar {
+    height: 100%;
+}
+
+/* sex-section */
+.sex-section ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+.sex-section li {
+    padding-right: 10px;
+}
+
+.sex-section a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* logo */
+.logo img{
+    width: 20%;
+}
+
+/* user icons */
+.user {
+    color: white;
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.user i {
+    padding-left: 10px;
+    font-size: 15px;
+}
