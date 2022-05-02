@@ -26,6 +26,12 @@ img{
 body {
     font-family:  'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+h3 {
+    font-size: 15px;
+}
+
+
 /* HEADER */
 
 header {
@@ -55,7 +61,6 @@ header {
     font-weight: 600;
 }
 
-
 /* logo */
 .logo img{
     width: 20%;
@@ -71,4 +76,75 @@ header {
 .user i {
     padding-left: 10px;
     font-size: 15px;
+}
+
+
+/* MAIN */
+
+/* columns */
+.columns{
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc( (100% / 3) - 20px);
+    padding-top: 50px;
+}
+
+/* card content */
+.product-info{
+    padding-top: 5px;
+}
+
+.brand {
+    font-size: 15px;
+}
+.discounted-price {
+    padding-top: 5px;
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.old-price {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+/* card tags and discount */
+
+.product-img {
+    position: relative;
+}
+
+.boxes {
+    position: absolute;
+    bottom: 20px;
+    
+}
+.box {
+    color: white;
+    margin-right: 10px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.heart-box {
+    background-color: white;
+    padding: 10px;
+    width: 15%;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    text-align: center;
+}
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
 }
