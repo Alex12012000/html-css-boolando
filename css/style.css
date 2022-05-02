@@ -37,6 +37,9 @@ h3 {
 header {
     background-color: #ff6900;
     height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
 .navbar {
@@ -90,7 +93,7 @@ header {
 
 .col {
     width: calc( (100% / 3) - 20px);
-    padding: 40px 0;
+    padding: 100px 0;
 }
 
 /* card content */
