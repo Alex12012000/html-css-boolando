@@ -40,6 +40,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 3;
+    box-shadow: 0 2px 3px grey;
 }
 
 .navbar {
@@ -89,11 +90,15 @@ header {
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
+    padding-top: 70px;
+    margin-bottom: 50px;
 }
 
 .col {
     width: calc( (100% / 3) - 20px);
-    padding: 100px 0;
+    padding-top: 40px;
+    
+
 }
 
 /* card content */
